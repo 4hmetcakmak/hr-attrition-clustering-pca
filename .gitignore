@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data & models (large / private)
+*.csv
+*.h5
+*.pkl
+*.zip
+data/*.shp
+data/*.dbf
+data/*.shx
+data/*.prj
+data/*.cpg
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
